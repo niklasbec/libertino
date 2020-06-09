@@ -1,5 +1,5 @@
 /*
-headergreen: #a6ac41
+headergreen: #BEBC48
 purple: #570946
 */
 
@@ -10,7 +10,7 @@ purple: #570946
 }
 
 .header {
-  background-color: #a6ac41;
+  background-color: #BEBC48;
   height: 15vh;
   width: 100vw;
   display: flex;
@@ -53,6 +53,7 @@ purple: #570946
 .text-container {
   width: 40vw;
   margin: 0 auto;
+  font-family: magnat;
 }
 
 .anliegen {
@@ -61,13 +62,13 @@ purple: #570946
 }
 
 .home-left h2 {
-  margin-top: 40px;
+  margin-top: 25px;
   font-size: 30px;
 }
 
 .home-left h3 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: -20px;
   margin-bottom: 40px;
   font-weight: 500;
@@ -75,12 +76,13 @@ purple: #570946
 
 .introduction {
   text-align: left;
+  font-size: 14px
 }
 
 .home-right {
   height: 100%;
   width: 50vw;
-  background: url("https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9");
+  background: url("./img/portrait-cropped.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,11 +104,11 @@ nav {
 
 .header a{
   text-decoration: none;
-  color: #570946;
+  color: #6F1952;
 }
 
 .contact-button {
-  background-color: #570946;
+  background-color: #6F1952;
   color: white;
   width: 12vw;
   height: 70px;
@@ -123,4 +125,133 @@ nav {
 .contact-button a {
   text-decoration: none;
   color: white;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  font-family: magnat;
+}
+
+.offer-intro {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.offer-points {
+  margin-bottom: 30px;
+}
+
+.green-boxes-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.greenbox {
+  background-color: #F1F3cc;
+  width: 15vw;
+  height: 65vh;
+  text-align: left;
+}
+
+.box-title {
+  font-size: 14px;
+  margin-left: 5%;
+}
+
+.box-text {
+  font-size: 14px;
+}
+
+.box-text-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*Über mich*/
+
+.about-intro {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  text-align: left;
+}
+
+#more-coaching {
+  background-color: #570946;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: left;
+}
+
+#more-coaching a {
+  color: white;
+  text-decoration: none;
+}
+
+.aboutme-lower {
+  width: 98vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  margin-bottom: 30px;
+}
+
+.aboutme-lower-left {
+  width: 40%;
+  background: url("./img/portrait2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.aboutme-lower-right {
+  width: 59%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.aboutme-lower-right1 {
+  width: 100%;
+  background-color:#BEBC48;
+}
+
+.aboutme-lower-right2 {
+  background-color: #F1F3cc;
+}
+
+.aboutme-lower-right3 {
+  background-color: #BEBC48;
+}
+
+.aboutme-bulletpoint-heading {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.vita {
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.year-vita {
+  min-width: 75px;
+}
+
+.year-vita-last {
+  margin-bottom: 20px;
+}
+
+.vita-point {
+  display: flex;
 }
