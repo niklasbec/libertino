@@ -5,9 +5,8 @@ function Header() {
   return (
     <div className="header">
       <div className="header-left">
-      <h1>libertino <br/>
-      <span className="logo-lower">genusswelten</span>
-      </h1>
+      <img src={require("../img/logo.png")} className="logo"/>
+      <img src={require("../img/light-green-bully.png")} className="logo-bully"/>
       </div>
       <div className="header-right">
       <nav>

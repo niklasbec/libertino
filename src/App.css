@@ -3,6 +3,14 @@ headergreen: #BEBC48
 purple: #570946
 */
 
+body {
+  font-family: magnat;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
   color: #570946;
@@ -14,6 +22,7 @@ purple: #570946
   height: 15vh;
   width: 100vw;
   display: flex;
+  overflow-x: hidden;
 }
 
 .home, .about, .offer, .contact, .references {
@@ -33,16 +42,18 @@ purple: #570946
   align-items: center;
 }
 
-.header-left h1 {
-  margin-left: 3vw;
-  font-family: magnat;
-  font-size: 44px;
-  line-height: 0.7;
+.logo {
+  width: 35%;
+  margin-top: 2%;
+  margin-left: 5%;
+  min-width: 180px;
 }
 
-.logo-lower {
-  font-weight: 100;
-  font-size: 28px;
+.logo-bully {
+  width: 12%;
+  margin-left: -2%;
+  margin-top: -6%;
+  min-width: 70px;
 }
 
 .home-left {
@@ -51,9 +62,8 @@ purple: #570946
 }
 
 .text-container {
-  width: 40vw;
-  margin: 0 auto;
-  font-family: magnat;
+  width: 60%;
+  margin-left: 22%;
 }
 
 .anliegen {
@@ -62,21 +72,22 @@ purple: #570946
 }
 
 .home-left h2 {
-  margin-top: 25px;
+  margin-top: 50px;
   font-size: 30px;
 }
 
 .home-left h3 {
   font-weight: 400;
   font-size: 18px;
-  margin-top: -20px;
+  margin-top: -10px;
   margin-bottom: 40px;
   font-weight: 500;
 }
 
 .introduction {
   text-align: left;
-  font-size: 14px
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .home-right {
@@ -95,10 +106,8 @@ nav {
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
-  margin-top: 3vh;
-  font-size: 23px;
-  font-family: magnat;
-  font-size: 24px;
+  margin-top: 2vh;
+  font-size: 30px;
   font-weight: 100;
 }
 
@@ -107,14 +116,28 @@ nav {
   color: #6F1952;
 }
 
+.door-img {
+  width: 30%;
+  height: 36%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-top: 10px;
+}
+
+.contact-door {
+  display: flex;
+  width: 50%;
+  margin: 5% 0 5% 18%;
+}
+
 .contact-button {
   background-color: #6F1952;
   color: white;
   width: 12vw;
-  height: 70px;
-  font-size: 20px;
+  height: 4.5vw;
+  font-size: 22px;
   display: flex;
-  font-weight: 600;
+  font-weight: 100;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -123,48 +146,93 @@ nav {
 }
 
 .contact-button a {
-  text-decoration: none;
   color: white;
+  line-height: 1.5;
 }
+
+.signature {
+  float: right;
+  margin-right: 10%;
+}
+
+/*OFFER Component*/
 
 .offer {
   display: flex;
   flex-direction: column;
-  font-family: magnat;
 }
 
 .offer-intro {
   width: 50vw;
+  font-size: 18px;
   margin: 0 auto;
+  text-align: left;
+}
+
+.offer-outro {
+  width: 75vw;
+  margin-left: 25vw;
+  display: flex;
+}
+
+.offer-outro-text {
+  width: 50vw;
+  font-size: 18px;
   text-align: left;
 }
 
 .offer-points {
   margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.brain-button-div {
+  width: 17vw;
+  margin-top: -10%;
+}
+
+.img-brain {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  float: right;
+  margin-right: 8%;
+  margin-bottom: -4%;
+}
+
+.coaching-button {
+  background-color: #6F1952;
+  color: white;
+  width: 17vw;
+  height: 55px;
+  font-size: 25px;
+  display: flex;
+  font-weight: 100;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 .green-boxes-container {
   display: flex;
-  justify-content: space-evenly;
-  width: 100vw;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  justify-content: space-between;
+  width: 98vw;
+  flex-wrap: wrap;
+  margin: 40px auto;
 }
 
 .greenbox {
   background-color: #F1F3cc;
-  width: 15vw;
-  height: 65vh;
+  width: 15%;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .box-title {
-  font-size: 14px;
+  font-size: 22px;
   margin-left: 5%;
 }
 
 .box-text {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .box-text-container {
@@ -179,14 +247,17 @@ nav {
   margin: 0 auto;
   display: flex;
   text-align: left;
+  font-size: 20px;
 }
+
 
 #more-coaching {
   background-color: #570946;
-  display: inline-block;
+  display: block;
+  width: 500px;
   padding: 8px;
   color: white;
-  text-align: left;
+  margin-left: 9.6vw;
 }
 
 #more-coaching a {
@@ -242,6 +313,7 @@ nav {
   text-align: left;
   width: 95%;
   margin: 0 auto;
+  font-weight: 100;
 }
 
 .year-vita {
@@ -254,4 +326,124 @@ nav {
 
 .vita-point {
   display: flex;
+}
+
+/*MEDIA QUERIES*/
+
+/*General Resize*/
+
+@media (min-width: 1351px) and (max-width: 1550px) {
+  nav {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1226px) and (max-width: 1350px) {
+  nav {
+    font-size: 26px;
+  }
+  
+  .box-title {
+    font-size: 20px;
+  }
+  
+  .box-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1225px) {
+  nav {
+    font-size: 24px;
+  }
+
+  .box-title {
+    font-size: 18px;
+  }
+  
+  .box-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 1150px) {
+  nav {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 926px) and (max-width: 1025px) {
+  nav {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 925px) {
+  nav {
+    font-size: 17px;
+  }
+}
+
+/*Logo Resize*/
+
+@media (max-width: 1250px) {
+  .logo {
+    width: 45%;
+  }
+  .logo-bully {
+    width: 16%;
+  }
+}
+
+@media (max-width: 950px) {
+  .logo {
+    width: 55%;
+    
+  }
+  .logo-bully {
+    width: 18%;
+  }
+}
+
+
+/*Structure Fix Offer Page Green boxes*/
+
+@media (max-width: 1150px) {
+  .greenbox {
+    background-color: #F1F3cc;
+    width: 31%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .green-boxes-container {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .greenbox {
+    background-color: #F1F3cc;
+    width: 45%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .green-boxes-container {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .greenbox {
+    background-color: #F1F3cc;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .green-boxes-container {
+    width: 100vw;
+  }
 }
