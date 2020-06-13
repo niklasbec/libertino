@@ -23,6 +23,7 @@ a {
   width: 100vw;
   display: flex;
   overflow-x: hidden;
+  min-height: 100px;
 }
 
 .home, .about, .offer, .contact, .references {
@@ -378,15 +379,84 @@ nav {
   }
 }
 
-@media (min-width: 800px) and (max-width: 925px) {
+@media (min-width: 801px) and (max-width: 925px) {
   nav {
     font-size: 17px;
   }
 }
 
+@media (max-width: 800px) {
+  
+  .header {
+    flex-direction: column;
+    min-height: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-left, .header-right {
+    height: 50%;
+    width: 100vw;
+  }
+
+  .header-left {
+    justify-content: center;
+    height: calc(50%-20px);
+    margin-top: 20px;
+  }
+
+  nav {
+    width: 80vw;
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 25%;
+    margin: unset;
+    min-width: unset;
+  }
+  
+  .logo-bully {
+    width: 12%;
+    margin-left: -2%;
+    margin-top: -6%;
+    min-width: 70px;
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo {
+    width: 40%;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  .logo-bully {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo {
+    width: 50%;
+  }
+
+  .logo-bully {
+    width: 15%;
+    display: none;
+  }
+
+  nav {
+    font-size: 16px;
+  }
+}
+
 /*Logo Resize*/
 
-@media (max-width: 1250px) {
+@media (min-width: 951px) and (max-width: 1250px) {
   .logo {
     width: 45%;
   }
@@ -395,7 +465,7 @@ nav {
   }
 }
 
-@media (max-width: 950px) {
+@media (min-width: 801px) and (max-width: 950px) {
   .logo {
     width: 55%;
     
