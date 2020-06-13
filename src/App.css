@@ -408,6 +408,7 @@ nav {
   nav {
     width: 80vw;
     font-size: 20px;
+    margin-top: 15px;
   }
 
   .logo {
@@ -432,6 +433,7 @@ nav {
 
   nav {
     font-size: 18px;
+    margin-top: 15px;
   }
 
   .logo-bully {
@@ -451,6 +453,7 @@ nav {
 
   nav {
     font-size: 16px;
+    margin-top: 15px;
   }
 }
 
