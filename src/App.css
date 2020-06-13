@@ -22,7 +22,6 @@ a {
   height: 15vh;
   width: 100vw;
   display: flex;
-  overflow-x: hidden;
   min-height: 100px;
 }
 
