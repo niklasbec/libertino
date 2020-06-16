@@ -159,6 +159,29 @@ nav {
   margin-right: 10%;
 }
 
+/*Home Media Queries*/
+
+@media (min-width: 1391px) and (max-width: 1620px) {
+  .text-container {
+    width: 70%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 1216px) and (max-width: 1390px) {
+  .text-container {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1215) {
+  .text-container {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
 /*OFFER Component*/
 
 .offer {
@@ -243,6 +266,50 @@ nav {
   width: 90%;
   margin: 0 auto;
 }
+
+
+/*Offer Media Queries*/
+
+@media (max-width: 1150px) {
+  .greenbox {
+    background-color: #f1f3cc;
+    width: 31%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .green-boxes-container {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .greenbox {
+    background-color: #f1f3cc;
+    width: 45%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .green-boxes-container {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .greenbox {
+    background-color: #f1f3cc;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .green-boxes-container {
+    width: 100vw;
+  }
+}
+
 
 /*Über mich*/
 
@@ -474,7 +541,7 @@ nav {
 }
 
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES GENERAL*/
 
 /*General Resize*/
 
@@ -619,47 +686,5 @@ nav {
   }
   .logo-bully {
     width: 18%;
-  }
-}
-
-/*Structure Fix Offer Page Green boxes*/
-
-@media (max-width: 1150px) {
-  .greenbox {
-    background-color: #f1f3cc;
-    width: 31%;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  .green-boxes-container {
-    width: 95vw;
-  }
-}
-
-@media (max-width: 700px) {
-  .greenbox {
-    background-color: #f1f3cc;
-    width: 45%;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  .green-boxes-container {
-    width: 85vw;
-  }
-}
-
-@media (max-width: 500px) {
-  .greenbox {
-    background-color: #f1f3cc;
-    width: 80%;
-    text-align: left;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-
-  .green-boxes-container {
-    width: 100vw;
   }
 }
