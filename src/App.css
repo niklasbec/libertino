@@ -401,14 +401,6 @@ nav {
   }
 }
 
-@supports (-webkit-touch-callout: none) {
-  .brain-button-div {
-    margin: 50px 0;
-  }
-}
-
-
-
 /*Über mich*/
 
 .about-intro {
@@ -617,6 +609,7 @@ nav {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  flex-wrap: wrap;
 }
 
 .contact-text p {
@@ -637,6 +630,63 @@ nav {
   font-size: 25px;
   margin-bottom: 0;
 }
+
+/*Media Queries Contact*/
+
+@media (max-width: 1300px) {
+  .contact-text {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 1150px) {
+  .contact-text {
+    font-size: 18px;
+  }
+
+  .contact-text-div h3 {
+    font-size: 32px;
+  }
+  
+  .contact-text-div h5 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact-text-div {
+    width: 40%;
+  }
+
+  .bully-row {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  
+  .pink-bully {
+    width: 10%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-text-div {
+    width: 70%;
+    margin: 0 auto;
+    min-height: unset;
+    margin-bottom: 50px;
+  }
+
+  .contact-text p {
+    text-align: center;
+  }
+
+  .bully-row {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
 
 
 /*MEDIA QUERIES GENERAL*/
