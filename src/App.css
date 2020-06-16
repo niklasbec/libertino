@@ -461,11 +461,18 @@ nav {
 .contact-text-div {
   width: 30%;
   min-height: 100%;
+  line-height: 1.6;
 }
 
 .contact-text-div h3 {
   font-size: 35px;
 }
+
+.contact-text-div h5 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
 
 /*MEDIA QUERIES*/
 

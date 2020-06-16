@@ -60,7 +60,9 @@ function Contact() {
           <br />
           Fax 040 -40 17 10 81
         </div>
-        <div className="contact-text-div"></div>
+        <div className="contact-text-div">
+            <h3>datenschutz</h3>
+        </div>
       </div>
     </div>
   );
