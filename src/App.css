@@ -401,6 +401,13 @@ nav {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  .brain-button-div {
+    margin: 50px 0;
+  }
+}
+
+
 
 /*Über mich*/
 
