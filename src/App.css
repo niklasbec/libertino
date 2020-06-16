@@ -175,9 +175,31 @@ nav {
   }
 }
 
-@media (max-width: 1215) {
+@media (min-width: 1166px) and (max-width: 1215px) {
+
+  .home-right, .home-left {
+    height: 110%;
+  }
+
   .text-container {
     width: 80%;
+    margin-left: 10%;
+  }
+  
+  .contact-button {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+}
+
+@media (max-width: 1165px) {
+  .home-right, .home-left {
+    height: 110%;
+  }
+
+  .text-container {
+    width: 82%;
     margin-left: 10%;
   }
 }
