@@ -269,7 +269,7 @@ nav {
   display: flex;
   font-weight: 100;
   justify-content: center;
-  padding-top: 5px;
+  padding: 5px;
 }
 
 .green-boxes-container {
@@ -304,6 +304,20 @@ nav {
 
 /*Offer Media Queries*/
 
+@media (min-width: 1351px) and (max-width: 1600px) {
+  .coaching-button {
+    width: 17vw;
+    height: 55px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .coaching-button {
+    height: 65px;
+  }
+}
+
 @media (max-width: 1150px) {
   .greenbox {
     background-color: #f1f3cc;
@@ -316,6 +330,49 @@ nav {
     width: 95vw;
   }
 }
+
+@media (max-width: 900px) {
+  .offer-outro {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100vw;
+  }
+
+  .offer-outro-text {
+    margin: 0 auto;
+  }
+
+  .brain-button-div {
+    width: 25vw;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-brain {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  .coaching-button {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 780px) {
+  .brain-button-div {
+    flex-direction: column;
+  }
+  .coaching-button {
+    width: 35vw;
+    height: 5vw;
+    font-size: 20px;
+  }
+}
+
+
 
 @media (max-width: 700px) {
   .greenbox {

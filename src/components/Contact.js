@@ -39,7 +39,7 @@ function Contact() {
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
             DE321647694
             <br />
-            <h5>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h5>
+            <h5>Verbraucherstreitbeilegung/ Universalschlichtungsstelle</h5>
             <br />
             Wir sind nicht bereit oder verpflichtet, an
             Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
