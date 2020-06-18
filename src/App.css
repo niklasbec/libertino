@@ -14,7 +14,6 @@ a {
 .App {
   text-align: center;
   color: #570946;
-  overflow-x: hidden;
 }
 
 .header {
@@ -30,7 +29,6 @@ a {
 .offer,
 .contact,
 .references {
-  height: 85vh;
   width: 100vw;
   display: flex;
 }
@@ -59,6 +57,10 @@ a {
   margin-left: -2%;
   margin-top: -6%;
   min-width: 70px;
+}
+
+.home {
+  height: 85vh;
 }
 
 .home-left {
