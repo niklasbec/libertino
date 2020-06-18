@@ -407,12 +407,11 @@ nav {
 
 @supports (-webkit-touch-callout: none) {
   .green-boxes-container {
-    margin-top: 300px;
+    margin-top: 450px;
   }
 
   .brain-button-div {
     margin-top: 150px;
-    margin-bottom: 100px;
   }
 }
 
