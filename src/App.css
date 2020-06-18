@@ -253,8 +253,7 @@ nav {
 }
 
 .img-brain {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  
   float: right;
   margin-right: 8%;
   margin-bottom: -4%;
