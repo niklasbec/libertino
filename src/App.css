@@ -154,6 +154,7 @@ a {
   transition: all 500ms ease-in-out;
   clip-path: circle(30px at calc(100% - 65px) 65px);
   visibility: hidden;
+  z-index: 3;
 }
 
 .active.nav:before {
@@ -171,9 +172,13 @@ a {
   z-index: 1;
   flex-direction: column;
   list-style: none;
-  margin: 0 auto;
   font-size: 50px;
   padding: unset;
+  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
 }
 
 /*Makes Burger only visible 700px or less*/
