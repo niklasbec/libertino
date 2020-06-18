@@ -253,7 +253,8 @@ nav {
 }
 
 .img-brain {
-  
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
   float: right;
   margin-right: 8%;
   margin-bottom: -4%;
@@ -397,6 +398,14 @@ nav {
 
   .green-boxes-container {
     width: 100vw;
+  }
+
+  .brain-button-div {
+    width: 100vw;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
   }
 }
 
