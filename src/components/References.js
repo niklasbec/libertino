@@ -1,26 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
+import BookPopUp from "./BookPopUp";
 
 function References() {
+  const [popupToggle, setPopupToggle] = useState(false);
+  const [bookInfo, setBookInfo] = useState({});
+
+  const togglePopup = (e) => {
+    if(e) {e.preventDefault();}
+    setPopupToggle(!popupToggle);
+  };
+
+  const selectBook = (e) => {
+    e.preventDefault()
+    let name = e.target.getAttribute('name')
+    if (name === "poletto") {
+      setBookInfo({
+        name: "Alles Poletto! Graefe und Unzer",
+        text:
+          "Cornelia Poletto gehört zu den führenden Köchinnen Deutschlands. Ihre Küche weist einen ausgeprägten mediterranen Stil auf, in den sie gekonnt heimische Produkte aus dem Norden der Republik einbindet. So werden Kabeljau oder Lamm gekonnt in eine auf südlichen Produkten basierende Sauce eingebunden, wo sie ihre Aromen hervorragend zur Geltung bringen. Dank Cornelia Polettos ausgeprägtem Geschmack und ihrer küchentechnischen Fertigkeiten werden ihre Kreationen zu kulinarischen Erlebnissen.",
+      });
+    } else if (name === "crashkurs1") {
+      setBookInfo({
+        name: "Crashkurs Wein Hallwag",
+        text:
+          "Wein in Wort und Bild. Mit den wichtigsten Infos, plakativ dargestellt und interessant und unterhaltsam erzählt. Keine langen Bleiwüsten, die mit theoretischen Abhandlungen über das begehrte Getränk ermüden, sondern eine erfrischende Präsentation für Weininteressierte. Und nicht nur Anfänger können hier noch etwas lernen: Kompetent wird im Leitfaden für den eigenen Geschmack erklärt, wie man seine, individuelle Geschmacksrichtung herausfinden kann, und wie man diese weiterentwickeln kann.",
+      });
+    } else if (name === "crashkurs2") {
+      setBookInfo({
+        name: "Crashkurs Essen und Wein Hallwag",
+        text:
+          "Grauburgunder zum Risotto? Oder einen Riesling zur Kokossuppe? Wer kennt sie nicht, diese Situation: Die Gäste stehen vor der Tür - und welcher Wein passt nun zu diesem Essen? Gerd Rindchen und Gotthard Scholz bieten dem Leser einen alltagstauglichen Wegweiser, um Essen und Wein ohne Angst vor Blamagen zu kombinieren.",
+      });
+    } else if (name === "genusshelden") {
+      setBookInfo({
+        name: "Genusshelden für Hamburg Junius",
+        text:
+          "In den \"Genusshelden für Hamburg\" porträtiert Gerd Rindchen 30 Protagonisten der Hamburger Genusskultur, allesamt harte Arbeiterinnen und Arbeiter im Dienst der guten Lebensart, die von ihrem Fach beseelt sind und für ihre Gäste und Kunden nur das Beste geben: Meisterköche und Gastronomen, Bio-Landwirte, die alte Gemüsesorten wiederbeleben, Bio- Vollkornbäcker, die ihr eigenes Vertragsgetreide anbauen lassen, türkische Familien, die Hamburg mit köstlichen Pasten versorgen, Gewürzmüller, Kaffeeröster, Teeimporteure, Kreativbrauer und Konditoren. Junius-Verlag in Kooperation mit dem Hamburger Abendblatt",
+      });
+    }
+    togglePopup()
+  };
+
   return (
     <div className="references">
+      {popupToggle ? <BookPopUp toggle={togglePopup} info={bookInfo} /> : null}
       <div className="books-container">
         <div className="book-titles">
           <div className="title-container">
-            <div className="vita-point">
+            <div className="vita-point book-hover" name="poletto" onClick={selectBook}>
               <div className="year-book">2006</div> Alles Polleto! Graefe und
               Unzer
               <br />
             </div>
-            <div className="vita-point">
+            <div className="vita-point book-hover" name="crashkurs1" onClick={selectBook}>
               <div className="year-book">2012</div> Crashkurs Wein Hallwag
               <br />
             </div>
-            <div className="vita-point">
+            <div className="vita-point book-hover" name="crashkurs2" onClick={selectBook}>
               <div className="year-book">2014</div> Crashkurs Essen und Wein
               Hallwag
               <br />
             </div>
-            <div className="vita-point">
+            <div className="vita-point book-hover" name="genusshelden" onClick={selectBook}>
               <div className="year-book">2019</div> Genusshelden für Hamburg
               Junius
               <br />
@@ -89,8 +130,15 @@ function References() {
             und auf Augenhöhe liefert Gerd, je nach Anliegen, strategisch,
             wirtschaftlich oder menschlich relevante Rückmeldungen - auch gern
             bei einem guten Glas Wein oder köstlichem Essen. Coachings bei Gerd
-            sind immer ein Genuss!<br /><br />Friederike, Geschäftsführerin
-            <img className="gerd-drawing" src={require("../img/gerd.png")} width="30%" />
+            sind immer ein Genuss!
+            <br />
+            <br />
+            Friederike, Geschäftsführerin
+            <img
+              className="gerd-drawing"
+              src={require("../img/gerd.png")}
+              width="30%"
+            />
           </div>
         </div>
       </div>

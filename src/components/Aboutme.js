@@ -83,9 +83,8 @@ function Aboutme() {
             </div>
           </div>
           <div className="aboutme-lower-right2">
-            <h6 className="aboutme-bulletpoint-heading">
-              Coaching
-              <div className="vita">
+            <h6 className="aboutme-bulletpoint-heading">Coaching</h6>
+            <div className="vita">
               <div className="vita-point">
                 <div className="year-vita">2018/20</div>Ausbildung zum
                 systemischen Coach, zertifiziert vom Freiburg Institut und der
@@ -94,8 +93,7 @@ function Aboutme() {
                 <br />
                 <br />
               </div>
-              </div>
-            </h6>
+            </div>
           </div>
           <div className="aboutme-lower-right3">
             <h6 className="aboutme-bulletpoint-heading">
@@ -108,7 +106,107 @@ function Aboutme() {
                 <br />
                 <br />
               </div>
+              <div className="vita-point">
+                <div className="year-vita">1982/83</div>
+                Redaktionelle Mitarbeit „Die Weinwirtschaft“, Neustadt /
+                Weinstraße
+                <br />
+                <br />
               </div>
+              <div className="vita-point">
+                <div className="year-vita">Ab 1982</div>
+                Veröffentlichungen u.a. in Hamburger Morgenpost, Hamburger
+                Rundschau, stern, Tango, Hamburger Abendblatt, Hamburg Pur, Die
+                Welt, Szene Hamburg, Beiträge für Radio Hamburg
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div className="aboutme-lower-right2">
+            <h6 className="aboutme-bulletpoint-heading">
+              Bibliographie – meine Bücher
+            </h6>
+            <div className="vita">
+              <div className="vita-point">
+                <div className="year-vita">2006</div>Alles Poletto! Graefe &amp;
+                Unzer
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">2012</div>Crashkurs Wein Hallwag
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">2014</div>Crashkurs Essen und Wein
+                Hallwag
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">2019</div>Genusshelden für Hamburg
+                Junius
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div className="aboutme-lower-right3">
+            <h6 className="aboutme-bulletpoint-heading">
+              Künstlerische Tätigkeit
+            </h6>
+            <div className="vita">
+              <div className="vita-point">
+                <div className="year-vita">1975/77</div>
+                Schnelldichter in Kampen / Sylt
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">ab 1978</div>sporadische Auftritte
+                als Schnelldichter und Liedermacher in Hamburg und Bremerhaven –
+                Danny´s Pan, Kellerbrettl am Großneumarkt, Villon, Alma Hoppes
+                Lustspielhaus, Kellertheater
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div className="aboutme-lower-right2">
+            <h6 className="aboutme-bulletpoint-heading">
+              Politisches Engagement
+            </h6>
+            <div className="vita">
+              <div className="vita-point">
+                <div className="year-vita">1976/77</div>
+                Schulsprecher Schulzentrum Bürgerpark Bremerhaven
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">1975/77</div>Vorsitzender
+                Jungdemokraten Bremerhaven, Mitglied des Landesvorstandes
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">1976/77</div>Mitglied des Kreisvorstands FDP Bremerhaven
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">1982</div>Austritt aus der FDP
+                <br />
+                <br />
+              </div>
+              <div className="vita-point">
+                <div className="year-vita">ab 1994</div>Mitglied der SPD
+                <br />
+                <br />
+              </div>
+            </div>
           </div>
         </div>
       </div>

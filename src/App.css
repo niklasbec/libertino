@@ -401,6 +401,63 @@ nav {
   }
 }
 
+/*POPUP*/
+
+.about {
+  background-color: rgb(32, 32, 32);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.popup {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: fixed;  
+    width: 100vw;  
+    height: 100vh;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+  width: 30vw;
+  height: 40vw;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.close-modal {
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.popup-text {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 25%;
+  font-size: 18px;
+}
+
+.book-hover:hover {
+  cursor: pointer;
+}
+
 /*Über mich*/
 
 .about-intro {
@@ -453,14 +510,17 @@ nav {
 .aboutme-lower-right1 {
   width: 100%;
   background-color: #bebc48;
+  margin-bottom: 15px;
 }
 
 .aboutme-lower-right2 {
   background-color: #f1f3cc;
+  margin-bottom:15px;
 }
 
 .aboutme-lower-right3 {
   background-color: #bebc48;
+  margin-bottom: 15px;
 }
 
 .aboutme-bulletpoint-heading {
@@ -477,7 +537,7 @@ nav {
 }
 
 .year-vita {
-  min-width: 75px;
+  min-width: 100px;
 }
 
 .year-vita-last {
