@@ -188,6 +188,12 @@ a {
   }
 }
 
+@media (max-width: 700px) {
+  .nav-desktop {
+    display: none;
+  }
+}
+
 /*HOME*/
 
 .home {
@@ -886,8 +892,6 @@ nav {
   }
 }
 
-
-
 /*MEDIA QUERIES GENERAL*/
 
 /*General Resize*/
@@ -985,37 +989,6 @@ nav {
   }
 }
 
-@media (max-width: 650px) {
-  .logo {
-    width: 40%;
-  }
-
-  nav {
-    font-size: 18px;
-    margin-top: 25px;
-  }
-
-  .logo-bully {
-    display: none;
-  }
-}
-
-@media (max-width: 550px) {
-  .logo {
-    width: 50%;
-  }
-
-  .logo-bully {
-    width: 15%;
-    display: none;
-  }
-
-  nav {
-    font-size: 17px;
-    margin-top: 25px;
-  }
-}
-
 /*Logo Resize*/
 
 @media (min-width: 951px) and (max-width: 1250px) {
@@ -1033,5 +1006,12 @@ nav {
   }
   .logo-bully {
     width: 18%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 300px;
+    margin-top: 6%;
   }
 }
