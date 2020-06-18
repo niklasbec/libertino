@@ -3,6 +3,10 @@ headergreen: #BEBC48
 purple: #570946
 */
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: magnat;
 }
@@ -400,7 +404,7 @@ nav {
 
   .green-boxes-container {
     width: 100vw;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
   .coaching-button {
     width: 50vw;
