@@ -407,7 +407,7 @@ nav {
 
 @supports (-webkit-touch-callout: none) {
   .green-boxes-container {
-    margin-top: 100px;
+    margin-top: 300px;
   }
 }
 
