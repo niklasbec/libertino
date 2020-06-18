@@ -399,13 +399,9 @@ nav {
   .green-boxes-container {
     width: 100vw;
   }
-
-  .brain-button-div {
-    width: 100vw;
-    margin: 20px auto;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+  .coaching-button {
+    width: 50vw;
+    height: 60px;
   }
 }
 
