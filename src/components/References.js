@@ -79,7 +79,7 @@ function References() {
       <div className="person-references">
         <div className="person-references-heading">
           <h3>referenzen</h3>
-          <img src={require("../img/speech-bubble.png")} width="150px" />
+          <img src={require("../img/speech-bubble.png")} width="150px" height="150px" />
         </div>
         <div className="references-text-container">
           <div className="single-reference">
