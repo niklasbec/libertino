@@ -69,6 +69,7 @@ function References() {
           </div>
         </div>
         <div className="book-img">
+        <p className="book-img-title">meine bücher</p>
           <img src={require("../img/books.png")} width="100%" />
         </div>
         <div className="book-heading">

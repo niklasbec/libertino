@@ -749,6 +749,10 @@ nav {
   margin-bottom: 20px;
 }
 
+.book-img-title {
+  display: none;
+}
+
 .year-book {
   min-width: 110px;
 }
@@ -780,6 +784,7 @@ nav {
   width: 95vw;
   margin: 0 auto;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .single-reference {
@@ -795,6 +800,146 @@ nav {
   margin-top: 14%;
   float: right;
   margin-right: 4%;
+}
+
+/*REFERENZEN MEDIA QUERIES*/
+
+@media (max-width: 1450px) {
+  .books-container {
+    height: 35vh;
+  }
+  .book-titles {
+    width: 50vw;
+  }
+  .book-img {
+    width: 30vw;
+  }
+  .book-heading {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .books-container {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 1101px) {
+  .book-titles {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .book-heading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .book-img-title {
+    display: unset;
+    font-size: 25px;
+  }
+
+  .book-img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    margin-left: 6vw;
+  }
+
+  .book-titles {
+    width: 60vw;
+  }
+
+  .book-heading {
+    display: none;
+  }
+
+  .book-img {
+    height: unset;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .book-img img {
+    margin: 0;
+    margin-bottom: 8%;
+  }
+
+  .single-reference {
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+    min-height: 100%;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .references-text-container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .book-titles {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 740px) {
+  .books-container {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .book-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .book-img img {
+    width: 40%;
+    margin: 0;
+  }
+
+  .book-titles {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .single-reference {
+    width: 80%;
+    border-bottom: 1px solid #570946;
+    padding-bottom: 30px;
+  }
+
+  .single-reference:last-child {
+    border: none;
+  }
+
+  .references-text-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .book-titles {
+    font-size: 18px;
+  }
+
+  .year-book {
+    min-width: 50px;
+    text-align: left;
+  }
 }
 
 /*CONTACT*/
