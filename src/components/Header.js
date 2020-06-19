@@ -10,7 +10,6 @@ function Header() {
   useEffect(() => {
     nav = document.getElementsByClassName("nav")[0];
     btn = document.getElementsByClassName("nav-tgl")[0];
-    console.log(nav);
   });
 
   const toggler = (e) => {
