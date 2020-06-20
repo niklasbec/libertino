@@ -586,7 +586,7 @@ nav {
 
 .popup-inner {
   width: 30vw;
-  height: 40vw;
+  height: 80vh;
   background-color: white;
   border-radius: 8px;
 }
@@ -823,6 +823,10 @@ nav {
   .books-container {
     height: 30vh;
   }
+
+  .popup-inner {
+    width: 35vw;
+  }
 }
 
 @media (max-width: 1101px) {
@@ -833,6 +837,10 @@ nav {
 
   .book-heading {
     font-size: 25px;
+  }
+
+  .popup-inner {
+    width: 40vw;
   }
 }
 
@@ -889,6 +897,10 @@ nav {
   .book-titles {
     font-size: 20px;
   }
+
+  .popup-inner {
+    width: 60vw;
+  }
 }
 
 @media (max-width: 740px) {
@@ -939,6 +951,10 @@ nav {
   .year-book {
     min-width: 50px;
     text-align: left;
+  }
+
+  .popup-inner {
+    width: 80vw;
   }
 }
 
