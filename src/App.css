@@ -955,6 +955,7 @@ nav {
 
   .popup-inner {
     width: 80vw;
+    overflow-y: scroll;
   }
 }
 
