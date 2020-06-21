@@ -807,7 +807,7 @@ nav {
 
 @supports (-webkit-touch-callout: none) {
   .aboutme-lower-left {
-    margin-bottom: 200px;
+    margin-bottom: 220px;
   }
 }
 
