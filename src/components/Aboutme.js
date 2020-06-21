@@ -17,7 +17,7 @@ function Aboutme() {
           vielleicht finden Sie dort die eine oder andere Anregung, welche
           meiner Erfahrungen Sie sich zu Nutze machen können.
         </p>
-        <img src={require("../img/vita.png")} width="150px" />
+        <img src={require("../img/vita.png")} width="150px" height="150px" />
       </div>
       <div id="more-coaching">
         <a href="">
@@ -25,7 +25,7 @@ function Aboutme() {
         </a>
       </div>
       <div className="aboutme-lower">
-        <div className="aboutme-lower-left"></div>
+        <div className="aboutme-lower-left"><img className="thousandpx-img" src={require("../img/portrait2.png")} width="150px" height="150px" /></div>
         <div className="aboutme-lower-right">
           <div className="aboutme-lower-right1">
             <h6 className="aboutme-bulletpoint-heading">

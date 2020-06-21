@@ -248,7 +248,7 @@ a {
 .home-right {
   min-height: 100%;
   width: 50vw;
-  background: url("./img/portrait-cropped.jpg");
+  background: url("./img/portrait1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -345,9 +345,13 @@ nav {
     width: 82%;
     margin-left: 10%;
   }
+
+  .contact-button {
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .text-container h2 {
     margin-top: 20px;
   }
@@ -359,6 +363,23 @@ nav {
     height: 6vw;
   }
 
+  .home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: unset;
+  }
+
+  .home-left {
+    width: 100vw;
+    overflow-x: unset;
+  }
+
+  .home-right {
+    width: 100vw;
+    background: url("./img/portrait1.jpg");
+    height: 100vw;
+  }
 }
 
 /*OFFER Component*/
@@ -697,6 +718,77 @@ nav {
 
 .vita-point {
   display: flex;
+}
+
+.thousandpx-img {
+  display: none;
+}
+
+/*About me Media Queries*/
+
+@media (max-width: 1000px) {
+  .about-intro {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+  }
+
+  #more-coaching {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .aboutme-lower {
+    flex-direction: column;
+  }
+
+  .aboutme-lower-left {
+    background: unset;
+    display: flex;
+    width: 100vw;
+  }
+
+  .aboutme-lower-right {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .thousandpx-img {
+    display: unset;
+    width: 40vw;
+    height: 28vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .thousandpx-img {
+    width: 60vw;
+    height: 42vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .thousandpx-img {
+    width: 75vw;
+    height: 52vw;
+  }
+
+  #more-coaching {
+    width: 400px;
+    padding: 8px;
+    color: white;
+  }
+}
+
+@media (max-width: 450px) {
+  
+  #more-coaching {
+    width: 320px;
+  
+  }
 }
 
 /*REFERENZEN*/
