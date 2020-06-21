@@ -781,8 +781,8 @@ nav {
 
 @media (max-width: 600px) {
   .thousandpx-img {
-    width: 75vw;
-    height: 52vw;
+    width: 400px;
+    height: 280px;
   }
 
   #more-coaching {
@@ -796,7 +796,11 @@ nav {
   
   #more-coaching {
     width: 320px;
-  
+  }
+
+  .thousandpx-img {
+    width: 350px;
+    height: 246px;
   }
 }
 
