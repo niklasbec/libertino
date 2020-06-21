@@ -802,6 +802,10 @@ nav {
     width: 350px;
     height: 246px;
   }
+
+  .aboutme-lower-right {
+    width: 100vw;
+  }
 }
 
 @supports (-webkit-touch-callout: none) {
