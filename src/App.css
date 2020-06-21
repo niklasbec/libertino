@@ -776,6 +776,7 @@ nav {
   .thousandpx-img {
     width: 60vw;
     height: 42vw;
+    border-radius: 10px;
   }
 }
 
@@ -801,10 +802,6 @@ nav {
   .thousandpx-img {
     width: 350px;
     height: 246px;
-  }
-
-  .aboutme-lower-right {
-    width: 100vw;
   }
 }
 
