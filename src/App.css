@@ -804,6 +804,12 @@ nav {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  .thousandpx-img {
+    margin-bottom: 200px;
+  }
+}
+
 /*REFERENZEN*/
 
 .references {
