@@ -806,7 +806,7 @@ nav {
 }
 
 @supports (-webkit-touch-callout: none) {
-  .thousandpx-img {
+  .aboutme-lower-left {
     margin-bottom: 200px;
   }
 }
