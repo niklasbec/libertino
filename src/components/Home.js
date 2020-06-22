@@ -22,7 +22,7 @@ function Home() {
         </div>
         <p className="anliegen">Ich freue mich auf Sie und ihr Anliegen!</p>
         </div>
-        <p className="signature">Gerd Rindchen</p>
+        <img src={require("../img/signature.png")} className="signature" width="200px"/>
       </div>
       <div className="home-right">
       </div>

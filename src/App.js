@@ -7,6 +7,8 @@ import {Route} from "react-router-dom"
 import Aboutme from './components/Aboutme';
 import References from './components/References';
 import Contact from './components/Contact';
+import Impressum from "./components/Impressum"
+import Security from './components/Security';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <Route exact path="/ueber-mich" component={Aboutme} />
       <Route exact path="/referenzen" component={References} />
       <Route exact path="/kontakt" component={Contact} />
+      <Route exact path="/impressum" component={Impressum} />
+      <Route exact path="/datenschutz" component={Security} />
     </div>
   );
 }

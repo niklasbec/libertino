@@ -227,16 +227,16 @@ a {
 }
 
 .home-left h2 {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 30px;
+  font-weight: 100;
 }
 
 .home-left h3 {
-  font-weight: 400;
   font-size: 18px;
   margin-top: -10px;
   margin-bottom: 40px;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .introduction {
@@ -306,7 +306,8 @@ nav {
 
 .signature {
   float: right;
-  margin-right: 10%;
+  margin-right: 7%;
+  margin-top: -30px;
 }
 
 /*Home Media Queries*/
@@ -323,6 +324,11 @@ nav {
     width: 80%;
     margin-left: 10%;
   }
+
+  .signature {
+    margin-right: 5%;
+    margin-top: -10px;
+  }
 }
 
 @media (min-width: 1166px) and (max-width: 1215px) {
@@ -336,7 +342,11 @@ nav {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  
+
+  .signature {
+    margin-right: 5%;
+    margin-top: 10px;
+  } 
 }
 
 @media (max-width: 1165px) {
@@ -349,6 +359,11 @@ nav {
   .contact-button {
     font-size: 16px;
   }
+
+  .signature {
+    margin-right: 5%;
+    margin-top: 10px;
+  } 
 }
 
 @media (max-width: 1000px) {
@@ -389,6 +404,11 @@ nav {
     width: 150px;
     height: 50px;
   }
+
+  .signature {
+    float: unset;
+    width: 250px;
+  } 
 }
 
 /*OFFER Component*/
@@ -396,6 +416,10 @@ nav {
 .offer {
   display: flex;
   flex-direction: column;
+}
+
+.offer h1{
+  font-weight: 100;
 }
 
 .offer-intro {
@@ -649,6 +673,10 @@ nav {
   font-size: 20px;
 }
 
+.aboutme h1 {
+  font-weight: 100;
+}
+
 #more-coaching {
   background-color: #570946;
   display: block;
@@ -876,7 +904,8 @@ nav {
 }
 
 .person-references h3 {
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .person-references-heading {
@@ -905,6 +934,12 @@ nav {
   font-size: 20px;
   min-height: 100%;
   line-height: 1.5;
+}
+
+.single-reference:nth-child(2) {
+  background-color: #f1f3cc;
+  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .gerd-drawing {
@@ -1101,10 +1136,19 @@ nav {
   text-align: left;
 }
 
+.contact-text h3 {
+  font-weight: 100;
+}
+
 .contact-text-div {
   width: 30%;
   min-height: 100%;
   line-height: 1.6;
+}
+
+.contact-text-div a {
+  text-decoration: none;
+  color: #570946;
 }
 
 .contact-text-div h3 {
@@ -1114,6 +1158,12 @@ nav {
 .contact-text-div h5 {
   font-size: 25px;
   margin-bottom: 0;
+}
+
+/*Impressum Untercomponent*/
+
+.contact-text-impressum {
+  justify-content: center;
 }
 
 /*Media Queries Contact*/
