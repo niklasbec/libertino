@@ -70,7 +70,7 @@ function References() {
         </div>
         <div className="book-img">
         <p className="book-img-title">meine bücher</p>
-          <img src={require("../img/books.png")} width="100%" />
+          <img alt="bild der von gerd rindchen geschriebenen bücher" src={require("../img/books.png")} width="100%" />
         </div>
         <div className="book-heading">
           <p>meine bücher</p>
@@ -79,7 +79,7 @@ function References() {
       <div className="person-references">
         <div className="person-references-heading">
           <h3>referenzen</h3>
-          <img src={require("../img/speech-bubble.png")} width="150px" height="150px" />
+          <img alt="icon einer sprechblase" src={require("../img/speech-bubble.png")} width="150px" height="150px" />
         </div>
         <div className="references-text-container">
           <div className="single-reference">
@@ -98,6 +98,12 @@ function References() {
             <br />
             <br />
             Heena, Psychologin
+            <img
+              className="heena-drawing"
+              src={require("../img/gerd.png")}
+              width="30%"
+              alt="zeichnung von gerd rindchen"
+            />
           </div>
           <div className="single-reference">
             Gerd Rindchen kannte und schätzte ich schon länger aus der Zeit, als
@@ -121,6 +127,12 @@ function References() {
             <br />
             <br />
             Torge, Verlagskaufmann und Betriebswirt
+            <img
+              className="middle-drawing"
+              src={require("../img/gerd.png")}
+              width="30%"
+              alt="zeichnung von gerd rindchen"
+            />
           </div>
           <div className="single-reference">
             Gerd Rindchen ist ein Coaching-Rebell! Er ist schnell gelangweilt,
@@ -139,6 +151,7 @@ function References() {
               className="gerd-drawing"
               src={require("../img/gerd.png")}
               width="30%"
+              alt="zeichnung von gerd rindchen"
             />
           </div>
         </div>

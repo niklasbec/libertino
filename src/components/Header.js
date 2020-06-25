@@ -30,10 +30,11 @@ function Header() {
   return (
     <div className="header">
       <div className="header-left">
-        <img src={require("../img/logo.png")} className="logo" />
+        <img alt="libertino genusswelten logo" src={require("../img/logo.png")} className="logo" />
         <img
           src={require("../img/light-green-bully.png")}
           className="logo-bully"
+          alt="icon eines grünen vw bullies"
         />
       </div>
       <div className="header-right">

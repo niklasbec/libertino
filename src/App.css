@@ -89,7 +89,7 @@ a {
   height: 2px;
   width: 34px;
   border-radius: 1px;
-  background: #f1f3cc;
+  background: #6f1952;
   vertical-align: middle;
 }
 
@@ -99,7 +99,7 @@ a {
   content: "";
   height: 2px;
   border-radius: 1px;
-  background: #f1f3cc;
+  background: #6f1952;
   transition: all 200ms;
 }
 
@@ -310,6 +310,10 @@ nav {
   margin-top: -30px;
 }
 
+.portrait1 {
+  display: none;
+}
+
 /*Home Media Queries*/
 
 @media (min-width: 1391px) and (max-width: 1620px) {
@@ -391,9 +395,19 @@ nav {
   }
 
   .home-right {
+    min-height: 100%;
     width: 100vw;
-    background: url("./img/portrait1.jpg");
-    height: 100vw;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .portrait1 {
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
   }
 }
 
@@ -703,9 +717,6 @@ nav {
 
 .aboutme-lower-left {
   width: 40%;
-  background: url("./img/portrait2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
 }
 
@@ -758,7 +769,10 @@ nav {
 }
 
 .thousandpx-img {
-  display: none;
+  width: 39.5vw;
+  height: 28vw;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 /*About me Media Queries*/
@@ -792,11 +806,9 @@ nav {
   }
 
   .thousandpx-img {
-    display: unset;
-    width: 40vw;
-    height: 28vw;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    width: 60vw;
+    height: 42vw;
+    border-radius: 10px;
   }
 }
 
@@ -944,9 +956,19 @@ nav {
 
 .gerd-drawing {
   display: block;
-  margin-top: 14%;
-  float: right;
-  margin-right: 4%;
+  margin: 0 auto;
+  margin-top: 45%;
+}
+
+.heena-drawing {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35%;
+}
+
+.middle-drawing {
+  display: block;
+  margin: 0 auto;
 }
 
 /*REFERENZEN MEDIA QUERIES*/

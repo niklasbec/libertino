@@ -4,12 +4,12 @@ function Impressum() {
   return (
     <div className="impressum-component">
       <div className="bully-row">
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
-        <img src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
+        <img alt="icon eines pinken vw bullies" src={require("../img/pink-bully.png")} className="pink-bully" />
       </div>
       <div className="contact-text contact-text-impressum">
         <div className="contact-text-div">

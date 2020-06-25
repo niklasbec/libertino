@@ -8,7 +8,7 @@ function Offer() {
     <div className="offer-points"><br /><br />Wein<br /><br />Handel<br /><br />Gastronomie<br /><br />Medien<br /><br />Genusswelten</div>
     <div className="offer-outro"><div className="offer-outro-text">Die Grenzen zwischen den Beratungsansätzen sind fließend –<br /> Sie selbst erarbeiten gemeinsam mit mir den Schwerpunkt der zu erbringenden Leistungen.</div>
     <div className="brain-button-div">
-    <img src={require("../img/brain.png")} width="150px" className="img-brain" />
+    <img alt="icon eines Gehirns" src={require("../img/brain.png")} width="150px" className="img-brain" />
     <a href="mailto:someone@yoursite.com"><div className="coaching-button">systemisches coaching</div></a>
     </div>
     </div>  

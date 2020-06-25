@@ -17,14 +17,15 @@ function Home() {
         Dann melden Sie sich gerne. 
         </p>
         <div className="contact-door">
-        <img src={require("../img/comein.png")} className="door-img"/>
+        <img alt="icon einer tür" src={require("../img/comein.png")} className="door-img"/>
         <a href="mailto:someone@yoursite.com"><div className="contact-button">jetzt<br/>kontaktieren</div></a>
         </div>
         <p className="anliegen">Ich freue mich auf Sie und ihr Anliegen!</p>
         </div>
-        <img src={require("../img/signature.png")} className="signature" width="200px"/>
+        <img alt="die unterschrift von gerd rindchen" src={require("../img/signature.png")} className="signature" width="200px"/>
       </div>
       <div className="home-right">
+        <img alt="bild von gerd rindchen" src={require("../img/portrait1.jpg")} className="portrait1" />
       </div>
     </div>
   );
