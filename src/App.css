@@ -980,6 +980,7 @@ nav {
 @media (max-width: 1200px) {
   .books-container {
     height: 30vh;
+    min-height: 250px;
   }
 
   .popup-inner {
