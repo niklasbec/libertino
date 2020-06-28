@@ -965,6 +965,7 @@ nav {
 @media (max-width: 1450px) {
   .books-container {
     height: 35vh;
+    min-height: 300px;
   }
   .book-titles {
     width: 50vw;
