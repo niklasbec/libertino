@@ -954,21 +954,11 @@ nav {
   padding-bottom: 30px;
 }
 
-.gerd-drawing {
+.character-drawings {
   display: block;
   margin: 0 auto;
-  margin-top: 45%;
-}
-
-.heena-drawing {
-  display: block;
-  margin: 0 auto;
-  margin-top: 35%;
-}
-
-.middle-drawing {
-  display: block;
-  margin: 0 auto;
+  margin-top: 30px;
+  min-width: 125px;
 }
 
 /*REFERENZEN MEDIA QUERIES*/

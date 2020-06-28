@@ -99,8 +99,8 @@ function References() {
             <br />
             Heena, Psychologin
             <img
-              className="heena-drawing"
-              src={require("../img/gerd.png")}
+              className="character-drawings"
+              src={require("../img/ladies.png")}
               width="30%"
               alt="zeichnung von gerd rindchen"
             />
@@ -128,8 +128,8 @@ function References() {
             <br />
             Torge, Verlagskaufmann und Betriebswirt
             <img
-              className="middle-drawing"
-              src={require("../img/gerd.png")}
+              className="character-drawings"
+              src={require("../img/torge.png")}
               width="30%"
               alt="zeichnung von gerd rindchen"
             />
@@ -148,7 +148,7 @@ function References() {
             <br />
             Friederike, Geschäftsführerin
             <img
-              className="gerd-drawing"
+              className="character-drawings"
               src={require("../img/gerd.png")}
               width="30%"
               alt="zeichnung von gerd rindchen"
