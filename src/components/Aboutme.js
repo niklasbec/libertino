@@ -17,7 +17,7 @@ function Aboutme() {
           vielleicht finden Sie dort die eine oder andere Anregung, welche
           meiner Erfahrungen Sie sich zu Nutze machen können.
         </p>
-        <img alt="vita icon" src={require("../img/vita.png")} width="150px" height="150px" />
+        <img alt="vita icon" src={require("../img/vita.png")} width="180px" />
       </div>
       <div id="more-coaching">
         <a href="">
