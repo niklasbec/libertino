@@ -22,7 +22,10 @@ function Home() {
         </div>
         <p className="anliegen">Ich freue mich auf Sie und ihr Anliegen!</p>
         </div>
-        <img alt="die unterschrift von gerd rindchen" src={require("../img/signature.png")} className="signature" width="200px"/>
+        <div className="signature">
+        <img alt="die unterschrift von gerd rindchen" src={require("../img/signature.png")} width="200px"/>
+        <p style={{marginTop: "-70px"}}>Gerd Rindchen</p>
+        </div>
       </div>
       <div className="home-right">
         <img alt="bild von gerd rindchen" src={require("../img/portrait1.jpg")} className="portrait1" />

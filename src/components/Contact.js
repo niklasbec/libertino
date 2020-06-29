@@ -20,11 +20,11 @@ function Contact() {
         </div>
         <div className="contact-text-div">
           <h3>kontakt</h3>
-          Libertino GmbH
+          libertino gmbh
           <br />
-          Am Weiher 11
+          am weiher 11
           <br />
-          20255 Hamburg
+          20255 hamburg
           <br />
           gerd.rindchen@libertino.eu
           <br />
