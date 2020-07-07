@@ -30,6 +30,10 @@ a {
   min-height: 100px;
 }
 
+.nav-desktop {
+  margin-top: 3.5vh;
+}
+
 .home,
 .about,
 .offer,
@@ -59,9 +63,9 @@ a {
 }
 
 .logo-bully {
-  width: 12%;
+  width: 15%;
   margin-left: -2%;
-  margin-top: -6%;
+  margin-top: -3%;
   min-width: 70px;
 }
 
@@ -242,7 +246,7 @@ a {
 .introduction {
   text-align: left;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .home-right {
@@ -659,6 +663,7 @@ nav {
   height: 80vh;
   background-color: white;
   border-radius: 8px;
+  overflow-x: scroll;
 }
 
 .close-modal {
@@ -673,6 +678,7 @@ nav {
   width: 80%;
   margin-top: 25%;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .book-hover:hover {
@@ -749,6 +755,7 @@ nav {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 15px;
+  font-weight: 100;
 }
 
 .vita {
@@ -945,8 +952,8 @@ nav {
   width: 30%;
   text-align: left;
   font-size: 20px;
-  min-height: 100%;
   line-height: 1.5;
+  min-height: 100%;
 }
 
 .single-reference:nth-child(2) {
@@ -1326,9 +1333,9 @@ nav {
   }
 
   .logo-bully {
-    width: 12%;
+    width: 15%;
     margin-left: -2%;
-    margin-top: -6%;
+    margin-top: -4%;
     min-width: 70px;
     display: none;
   }
@@ -1341,7 +1348,7 @@ nav {
     width: 45%;
   }
   .logo-bully {
-    width: 16%;
+    width: 20%;
   }
 }
 
@@ -1350,7 +1357,7 @@ nav {
     width: 55%;
   }
   .logo-bully {
-    width: 18%;
+    width: 22%;
   }
 }
 

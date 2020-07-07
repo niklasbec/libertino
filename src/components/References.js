@@ -48,22 +48,20 @@ function References() {
         <div className="book-titles">
           <div className="title-container">
             <div className="vita-point book-hover" name="poletto" onClick={selectBook}>
-              <div className="year-book">2006</div> Alles Polleto! Graefe und
+              <div className="year-book">2006</div> Alles Poleto! - Graefe und
               Unzer
               <br />
             </div>
             <div className="vita-point book-hover" name="crashkurs1" onClick={selectBook}>
-              <div className="year-book">2012</div> Crashkurs Wein Hallwag
+              <div className="year-book">2012</div> Crashkurs Wein - Hallwag
               <br />
             </div>
             <div className="vita-point book-hover" name="crashkurs2" onClick={selectBook}>
-              <div className="year-book">2014</div> Crashkurs Essen und Wein
-              Hallwag
+              <div className="year-book">2014</div> Crashkurs Essen und Wein - Hallwag
               <br />
             </div>
             <div className="vita-point book-hover" name="genusshelden" onClick={selectBook}>
-              <div className="year-book">2019</div> Genusshelden für Hamburg
-              Junius
+              <div className="year-book">2019</div> Genusshelden für Hamburg - Junius
               <br />
             </div>
           </div>
@@ -129,7 +127,7 @@ function References() {
             Torge, Verlagskaufmann und Betriebswirt
             <img
               className="character-drawings"
-              src={require("../img/torge.png")}
+              src={require("../img/gerd.png")}
               width="30%"
               alt="zeichnung von gerd rindchen"
             />
@@ -149,7 +147,7 @@ function References() {
             Friederike, Geschäftsführerin
             <img
               className="character-drawings"
-              src={require("../img/gerd.png")}
+              src={require("../img/torge.png")}
               width="30%"
               alt="zeichnung von gerd rindchen"
             />
