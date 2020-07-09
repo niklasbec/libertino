@@ -48,7 +48,7 @@ function References() {
         <div className="book-titles">
           <div className="title-container">
             <div className="vita-point book-hover" name="poletto" onClick={selectBook}>
-              <div className="year-book">2006</div> Alles Poleto! - Graefe und
+              <div className="year-book">2006</div> Alles Poletto! - Graefe und
               Unzer
               <br />
             </div>

@@ -221,12 +221,13 @@ a {
 }
 
 .text-container {
-  width: 60%;
-  margin-left: 22%;
+  width: 70%;
+  margin-left: 18%;
 }
 
 .anliegen {
   margin: 0 auto;
+  font-size: 20px;
   margin-top: 20px;
 }
 
@@ -237,7 +238,7 @@ a {
 }
 
 .home-left h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: -10px;
   margin-bottom: 40px;
   font-weight: 100;
@@ -245,7 +246,7 @@ a {
 
 .introduction {
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -1166,7 +1167,7 @@ nav {
 .contact-text-div {
   width: 30%;
   min-height: 100%;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .contact-text-div a {
@@ -1184,6 +1185,19 @@ nav {
 }
 
 /*Impressum Untercomponent*/
+
+.datenschutz-heading {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.datenschutz-paragraph {
+  margin-bottom: 40px;
+}
+
+.datenschutz-paragraph-last {
+  margin-bottom: 150px;
+}
 
 .contact-text-impressum {
   justify-content: center;

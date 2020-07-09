@@ -32,7 +32,7 @@ function Offer() {
             </div>
         </div>
         <div className="greenbox">
-            <h4 className="box-title">Mediation</h4>
+            <h4 className="box-title">Vermittlung bei Konflikten</h4>
             <div className="box-text-container">
             <p className="box-text">In meinem Leben ist es mir oft gelungen, Brücken zwischen Menschen zu bauen, indem ich mich in ihre Gefühlswelten hineinversetzt, daraus ihre eigentlichen Bedürfnisse abgeleitet und Verständnis für den jeweils anderen Standpunkt geweckt habe. Das baut Verhärtungen ab und schafft idealerweise auch dort gedanklich und emotional Raum für neue gemeinsame Gestaltung, wo vorher Gegensätze aufeinanderprallten.</p>
             </div>
