@@ -310,7 +310,7 @@ nav {
 }
 
 .signature {
-  margin-top: -30px;
+  margin-top: -10px;
   margin-bottom: 30px;
 }
 
@@ -332,11 +332,6 @@ nav {
     width: 80%;
     margin-left: 10%;
   }
-
-  .signature {
-    margin-right: 5%;
-    margin-top: -10px;
-  }
 }
 
 @media (min-width: 1166px) and (max-width: 1215px) {
@@ -350,11 +345,6 @@ nav {
     font-size: 18px;
     margin-bottom: 10px;
   }
-
-  .signature {
-    margin-right: 5%;
-    margin-top: 10px;
-  } 
 }
 
 @media (max-width: 1165px) {
@@ -367,11 +357,7 @@ nav {
   .contact-button {
     font-size: 16px;
   }
-
-  .signature {
-    margin-right: 5%;
-    margin-top: 10px;
-  } 
+ 
 }
 
 @media (max-width: 1000px) {
@@ -424,7 +410,6 @@ nav {
   }
 
   .signature {
-    float: unset;
     width: 250px;
   } 
 }
