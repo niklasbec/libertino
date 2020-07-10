@@ -31,7 +31,7 @@ a {
 }
 
 .nav-desktop {
-  margin-top: 3.5vh;
+  margin-top: 4.5vh;
 }
 
 .home,
@@ -443,7 +443,8 @@ nav {
 
 .offer-intro {
   width: 50vw;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5;
   margin: 0 auto;
   text-align: left;
 }
@@ -451,18 +452,22 @@ nav {
 .offer-outro {
   width: 75vw;
   margin-left: 25vw;
+  font-size: 20px;
+  line-height: 1.5;
   display: flex;
 }
 
 .offer-outro-text {
   width: 50vw;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5;
   text-align: left;
 }
 
 .offer-points {
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .brain-button-div {
@@ -513,7 +518,8 @@ nav {
 }
 
 .box-text {
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .box-text-container {
@@ -694,6 +700,7 @@ nav {
   display: flex;
   text-align: left;
   font-size: 20px;
+  line-height: 1.5;
   align-items: flex-start;
 }
 
@@ -1193,6 +1200,8 @@ nav {
 
 .datenschutz-paragraph {
   margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .datenschutz-paragraph-last {
