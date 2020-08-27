@@ -18,7 +18,7 @@ function Home() {
         </p>
         <div className="contact-door">
         <img alt="icon einer tür" src={require("../img/comein.png")} className="door-img"/>
-        <a href="mailto:someone@yoursite.com"><div className="contact-button">jetzt<br/>kontaktieren</div></a>
+        <a href="mailto:gerd.rindchen@libertino.eu"><div className="contact-button">jetzt<br/>kontaktieren</div></a>
         </div>
         <p className="anliegen">Ich freue mich auf Sie und ihr Anliegen!</p>
         </div>
