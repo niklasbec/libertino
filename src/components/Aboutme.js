@@ -34,8 +34,7 @@ function Aboutme() {
             <div>
               <div className="vita">
                 <div className="vita-point">
-                  <div className="year-vita">1977</div> Start des
-                  nebenberuflichen Weinhandles in Bremerhaven mit VW-Bus
+                  <div className="year-vita">1977</div> Im Alter von knapp 18 Jahren Start des nebenberuflichen Weinhandels in Bremerhaven mit VW-Bus
                   "Traugott"
                   <br />
                   <br />
@@ -101,7 +100,7 @@ function Aboutme() {
             </h6>
             <div className="vita">
               <div className="vita-point">
-                <div className="year-vita">1965</div>
+                <div className="year-vita">1966</div>
                 Weihnachtsgedicht, Nordsee-Zeitung, Bremerhaven
                 <br />
                 <br />

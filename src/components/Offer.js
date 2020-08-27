@@ -4,17 +4,17 @@ function Offer() {
   return (
     <div className="offer">
     <h1>angebot</h1>
-    <div className="offer-intro">Ob Sie eine klassische Unternehmerberatung, eine ganzheitliche Begleitung, ein Coaching oder eine Mediation in Anspruch nehmen möchten: In allen diesen Bereichen können Ihnen branchenübergreifend meine Erfahrungen aus vierzig Jahren Unternehmensaufbau- und Leitung von Nutzen sein. Hinzu kommen spezifische Kompetenzen in den Bereichen</div>
+    <div className="offer-intro">Ob Sie eine klassische Unternehmerberatung, eine ganzheitliche Begleitung, ein Coaching oder eine Konfliktberatung in Anspruch nehmen möchten: In allen diesen Bereichen können Ihnen branchenübergreifend meine Erfahrungen aus vierzig Jahren Unternehmensaufbau- und Leitung von Nutzen sein. Hinzu kommen spezifische Kompetenzen in den Bereichen</div>
     <div className="offer-points"><br /><br />Wein<br /><br />Handel<br /><br />Gastronomie<br /><br />Medien<br /><br />Genusswelten</div>
     <div className="offer-outro"><div className="offer-outro-text">Die Grenzen zwischen den Beratungsansätzen sind fließend –<br /> Sie selbst erarbeiten gemeinsam mit mir den Schwerpunkt der zu erbringenden Leistungen.</div>
     <div className="brain-button-div">
     <img alt="icon eines Gehirns" src={require("../img/brain.png")} width="150px" className="img-brain" />
-    <a href="mailto:someone@yoursite.com"><div className="coaching-button">systemisches coaching</div></a>
+    <a href="mailto:gerd.rindchen@libertino.eu"><div className="coaching-button">systemisches coaching</div></a>
     </div>
     </div>  
     <div className="green-boxes-container">
         <div className="greenbox">
-            <h4 className="box-title">Klassische Unternehmer- und Unternehmungs- beratung</h4>
+            <h4 className="box-title">Klassische Unternehmer- und Unternehmens- beratung</h4>
             <div className="box-text-container">
             <p className="box-text">Hier geht es darum, wirtschaftliche Problemstellungen unvoreingenommen von außen zu beleuchten, zu analysieren, daraus Handlungsempfehlungen abzuleiten und deren Umsetzung zu befördern und abzugleichen. Kreative, marketingorientierte Begleitung und zahlenbasierte Analyse gehen hier einher. </p>
             </div>
