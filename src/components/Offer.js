@@ -1,15 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
+import CoachingPopUp from "./CoachingPopUp";
 
 function Offer() {
+
+  const [popupToggle, setPopupToggle] = useState(false);
+
+  const togglePopup = (e) => {
+    if(e) {e.preventDefault();}
+    setPopupToggle(!popupToggle);
+  };
+
+  let popUpInfo = {
+    name: "Definition Systemisches Coaching"
+}
+
   return (
     <div className="offer">
+    {popupToggle ? <CoachingPopUp toggle={togglePopup} info={popUpInfo} /> : null}
     <h1>angebot</h1>
     <div className="offer-intro">Ob Sie eine klassische Unternehmerberatung, eine ganzheitliche Begleitung, ein Coaching oder eine Konfliktberatung in Anspruch nehmen möchten: In allen diesen Bereichen können Ihnen branchenübergreifend meine Erfahrungen aus vierzig Jahren Unternehmensaufbau- und Leitung von Nutzen sein. Hinzu kommen spezifische Kompetenzen in den Bereichen</div>
     <div className="offer-points"><br /><br />Wein<br /><br />Handel<br /><br />Gastronomie<br /><br />Medien<br /><br />Genusswelten</div>
     <div className="offer-outro"><div className="offer-outro-text">Die Grenzen zwischen den Beratungsansätzen sind fließend –<br /> Sie selbst erarbeiten gemeinsam mit mir den Schwerpunkt der zu erbringenden Leistungen.</div>
     <div className="brain-button-div">
     <img alt="icon eines Gehirns" src={require("../img/brain.png")} width="150px" className="img-brain" />
-    <a href="mailto:gerd.rindchen@libertino.eu"><div className="coaching-button">systemisches coaching</div></a>
+    <a><div className="coaching-button" onClick={() => setPopupToggle(!popupToggle)}>systemisches coaching</div></a>
     </div>
     </div>  
     <div className="green-boxes-container">

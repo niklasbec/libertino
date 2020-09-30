@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import BookPopUp from "./BookPopUp";
 
 function References() {
-  const [popupToggle, setPopupToggle] = useState(false);
   const [bookInfo, setBookInfo] = useState({});
+  const [popupToggle, setPopupToggle] = useState(false);
 
   const togglePopup = (e) => {
     if(e) {e.preventDefault();}
